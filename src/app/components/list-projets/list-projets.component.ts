@@ -17,7 +17,7 @@ export class ListProjetsComponent {
     },
     {
       titre : "Site portfolio",
-      icone : "spider-web.svg",
+      icone : "portfolio.png",
       description : "Création / hébergement de mon site web portfolio. Réalisation du site avec le framework angular",
       link : "https://github.com/AntoninMart/my-portfolio",
       color : "yellow",
