@@ -11,6 +11,7 @@ import { HardskillsComponent } from './components/hardskills/hardskills.componen
 import { ProjectComponent } from './components/project/project.component';
 import { HobbiesComponent } from './components/hobbies/hobbies.component';
 import { FormationComponent } from './components/formation/formation.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FormationComponent } from './components/formation/formation.component';
     HardskillsComponent,
     ProjectComponent,
     HobbiesComponent,
-    FormationComponent
+    FormationComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
