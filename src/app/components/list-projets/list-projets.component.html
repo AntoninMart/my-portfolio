@@ -1,10 +1,10 @@
-<section class="min-h-screen flex flex-col items-center text-white gap-4 pt-40 pb-20">
-    <div *ngFor="let projet of projets" class="flex flex-row w-2/3 bg-zinc-900 p-6 rounded-md">
-        <div class="w-1/4 flex flex-row items-center justify-start gap-4">
-            <img [src]="'assets/images/' + projet.icone" alt="{{projet.titre}}" class="w-24">
-            <h3 class="font-bold text-xl">{{ projet.titre }}</h3>
+<section class="min-h-screen flex flex-col items-center text-white gap-4 pt-40 pb-20 px-10">
+    <div *ngFor="let projet of projets" class="flex flex-col xl:flex-row w-full xl:w-2/3 bg-zinc-900 p-6 rounded-md">
+        <div class="w-full xl:w-1/4 flex flex-col-reverse xl:flex-row items-center xl:justify-start xl:gap-4">
+            <img [src]="'assets/images/' + projet.icone" alt="{{projet.titre}}" class="w-24 mb-4 xl:mb-0">
+            <h3 class="font-bold text-xl text-center xl:text-start">{{ projet.titre }}</h3>
         </div>
-        <div class="border-l-2 border-white w-3/4 p-6 flex flex-col gap-2">
+        <div class="border-t-2 xl:border-t-0 xl:border-l-2 border-white w-full xl:w-3/4 py-6 px-2 xl:p-6 flex flex-col gap-2 text-center items-center xl:text-start xl:items-start">
             <p>{{ projet.description }}</p>
             <a *ngIf="projet.link" [class]="'rounded-lg py-1 px-2 border-2 border-white hover:bg-white hover:text-black duration-300 w-fit'" [href]="projet.link">Consultez le projet</a>
         </div>

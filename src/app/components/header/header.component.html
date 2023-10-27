@@ -8,8 +8,8 @@
             <h1 class=" underline underline-offset-2 decoration-yellow-300">My portfolio</h1>
         </div>
         <div class="flex flex-row justify-center items-center gap-4">
-            <a target="_blank" href="https://www.linkedin.com/in/antonin-martinez-abb949221/" class="text-gray-500 hover:text-white duration-300">Linkedin</a>
-            <a target="_blank" href="https://github.com/AntoninMart" class="text-gray-500 hover:text-white duration-300">Github</a>
+            <a routerLink="/" routerLinkActive="text-white" [routerLinkActiveOptions]="{exact:true}" class="text-gray-500 hover:text-white duration-300">Accueil</a>
+            <a routerLink="/projets" routerLinkActive="text-white" [routerLinkActiveOptions]="{exact:true}" class="text-gray-500 hover:text-white duration-300">Projets</a>
         </div>
     </div>
 </header>
