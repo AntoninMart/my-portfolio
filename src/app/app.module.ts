@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { RouterModule } from '@angular/router';
 
-import { AppRoutingModule } from './app-routing.module';
+import { AppRoutingModule, routes } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -12,6 +13,8 @@ import { ProjectComponent } from './components/project/project.component';
 import { HobbiesComponent } from './components/hobbies/hobbies.component';
 import { FormationComponent } from './components/formation/formation.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { PageProjetComponent } from './pages/page-projet/page-projet.component';
+import { ListProjetsComponent } from './components/list-projets/list-projets.component';
 
 @NgModule({
   declarations: [
@@ -24,11 +27,17 @@ import { FooterComponent } from './components/footer/footer.component';
     ProjectComponent,
     HobbiesComponent,
     FormationComponent,
-    FooterComponent
+    FooterComponent,
+    PageProjetComponent,
+    ListProjetsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    [RouterModule.forRoot([
+      { path: '', component: HomeComponent},
+      { path: 'projets', component: PageProjetComponent },
+    ])]
   ],
   providers: [],
   bootstrap: [AppComponent]

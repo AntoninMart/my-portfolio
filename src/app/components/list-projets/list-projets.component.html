@@ -1,0 +1,12 @@
+<section class="min-h-screen flex flex-col items-center text-white gap-4 pt-40 pb-20">
+    <div *ngFor="let projet of projets" class="flex flex-row w-2/3 bg-zinc-900 p-6 rounded-md">
+        <div class="w-1/4 flex flex-row items-center justify-start gap-4">
+            <img [src]="'assets/images/' + projet.icone" alt="{{projet.titre}}" class="w-24">
+            <h3 class="font-bold text-xl">{{ projet.titre }}</h3>
+        </div>
+        <div class="border-l-2 border-white w-3/4 p-6 flex flex-col gap-2">
+            <p>{{ projet.description }}</p>
+            <a *ngIf="projet.link" [class]="'rounded-lg py-1 px-2 border-2 border-white hover:bg-white hover:text-black duration-300 w-fit'" [href]="projet.link">Consultez le projet</a>
+        </div>
+    </div>
+</section>
