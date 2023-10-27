@@ -36,35 +36,5 @@ export class ListProjetsComponent {
       link : "https://antoninmart.github.io/smash-hit-website/",
       color : "red",
     },
-    {
-      titre : "Stageo",
-      icone : "browser.svg",
-      description : "Projet web ayant pour but de gérer des offres / candidatures de stage. Framework bootstrap pour la partie front PHP pour la partie back,",
-      link : "https://github.com/AntoninMart/Stageo",
-    },
-    {
-      titre : "EasySave",
-      icone : "c-sharp.svg",
-      description : "Logiciel de sauvegarde(copie de fichier) réalisé en CSharp. IHM Console, IHM en WPF MultiThreading des différentes sauvegardes",
-      link : "",
-    },
-    {
-      titre : "Projet Siren",
-      icone : "arrow.png",
-      description : "Logiciel permettant de récupérer / gérer / distruber les données de l'api insee siren Ajout de ma fonctionnalité dans la progiciel de l'entreprise Projet réalisé avec : C#, Api Rest, VBnet, SqlServer",
-      link : "",
-    },
-    {
-      titre : "Projet C++",
-      icone : "cpp.svg",
-      description : "Interface windows form permettant la gestion / traitement d'une base de données",
-      link : "https://github.com/AntoninMart/Projet-POO/tree/main/Project1",
-    },
-    {
-      titre : "Projet Worldwide Weather Watcher",
-      icone : "arduino.svg",
-      description : "Projet système embarqué, Station météo en Arduino",
-      link : "",
-    },
   ]
 }
