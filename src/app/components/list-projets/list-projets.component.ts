@@ -33,7 +33,7 @@ export class ListProjetsComponent {
       titre : "Api Siren",
       icone : "arrow.png",
       description : "Réalisation d'une solution, permettant d'acquérir, stocker et garder à jour les données de l'API SIREN de l'INSEE. Intégration d'une nouvelle fonctionnalité dans le progiciel de l'entreprise permettant aux clients de pré-remplir ainsi que de vérifier les données renseignée dans la création d'un nouveau tiers.",
-      date : "Avr. 2023",
+      date : "Avr. 2022",
     },
     {
       titre : "Dumbot",
