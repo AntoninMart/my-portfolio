@@ -7,6 +7,7 @@
         <div class="border-t-2 xl:border-t-0 xl:border-l-2 border-white w-full xl:w-3/4 py-6 px-2 xl:p-6 flex flex-col gap-2 text-center items-center xl:text-start xl:items-start">
             <p>{{ projet.description }}</p>
             <a *ngIf="projet.link" target="_blank" class="rounded-lg py-1 px-2 border-2 border-white hover:bg-white hover:text-black duration-300 w-fit" [href]="projet.link">Consultez le projet</a>
+            <h5 *ngIf="projet.date" class="text-sm text-gray-500">{{ projet.date }}</h5>
         </div>
     </div>
 </section>
