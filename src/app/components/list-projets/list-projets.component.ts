@@ -16,6 +16,13 @@ export class ListProjetsComponent {
       date : "Oct. 2023 - Maintenant",
     },
     {
+      titre : "Apprendre les sons",
+      icone : "logo-lapin.png",
+      description : "Interface utilisée en école maternelle permettant aux enfants d'apprendre les sons",
+      link : "https://antoninmart.github.io/interface-image/",
+      date : "Avr. 2024 - Maintenant",
+    },
+    {
       titre : "Site portfolio",
       icone : "portfolio.png",
       description : "Création / hébergement de mon site web portfolio. Réalisation du site avec le framework angular",
